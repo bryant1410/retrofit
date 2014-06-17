@@ -145,7 +145,7 @@ public final class MultipartTypedOutput implements TypedOutput {
       sb.append(boundary);
       if (last) {
         sb.append("--");
-      //} else {
+      }// else {
       sb.append("\r\n");
       //}
       return sb.toString().getBytes("UTF-8");
