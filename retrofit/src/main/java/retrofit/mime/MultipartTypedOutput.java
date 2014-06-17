@@ -144,7 +144,7 @@ public final class MultipartTypedOutput implements TypedOutput {
       sb.append("--");
       sb.append(boundary);
       if (last) {
-        sb.append("--");
+        sb.append("--a");
       }// else {
       sb.append("\r\n");
       //}
